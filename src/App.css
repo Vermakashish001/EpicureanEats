@@ -5,3 +5,16 @@
   text-align: center;
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px ;
+  border: 1px solid #000;
+}
+.nav-item{
+  list-style-type: none;
+  display: flex;
+}
+.nav-item.ul.li{
+  margin: 10px;
+}
