@@ -9,6 +9,7 @@ const HeaderComponent = () => {
       <div className="header">
         <title>My App</title>
         <div className="nav-items">
+        <h1>EpicureanEats</h1>
           <ul>
             <li> Home </li>
             <li> About </li>
@@ -16,18 +17,33 @@ const HeaderComponent = () => {
             <li> Cart </li>
           </ul>
         </div>
-      </div>
+      </div> 
     </>
   )
 };
+const Body = () => {
+  return (
+    <>
+      <h1>Body</h1>
+    </>
+  )
+};
+const Footer = () => {
+  return (
+    <>
+      <h1>Footer</h1>
+    </>
+  )
+}; 
 
 const AppLayout = () => {
   return (
-    <div>
+    <>
       <HeaderComponent />
-      {/* Add other components here */}
-    </div>
-  );
+      <Body />
+      <Footer />
+    </>
+  ); 
 };
 
 export default AppLayout;
